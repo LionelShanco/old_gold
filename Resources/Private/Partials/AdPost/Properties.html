@@ -1,0 +1,60 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-old-gold" >
+	<tr>
+		<td>
+			<f:translate key="tx_oldgold_domain_model_adpost.title" />
+		</td>
+		<td>
+		{adPost.title}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_oldgold_domain_model_adpost.description" />
+		</td>
+		<td>
+		{adPost.description}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_oldgold_domain_model_adpost.destination" />
+		</td>
+		<td>
+			{adPost.destination}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_oldgold_domain_model_adpost.categories" />
+		</td>
+		<td>
+		{adPost.categories}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_oldgold_domain_model_adpost.phone_number" />
+		</td>
+		<td>
+		{adPost.phoneNumber}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_oldgold_domain_model_adpost.email" />
+		</td>
+		<td>
+		{adPost.email}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_oldgold_domain_model_adpost.image" />
+		</td>
+		<td>
+			<f:if condition="{adPost.image}"><f:image image="{adPost.image}" alt="" width="200"/></f:if>
+		</td>
+	</tr>
+</table>
+</html>

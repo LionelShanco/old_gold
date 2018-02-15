@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-26T19:20:16Z" product-name="old_gold">
+		<header/>
+		<body>
+			<trans-unit id="tx_oldgold_domain_model_adpost">
+				<source>Ad Post</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_adpost.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_adpost.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_adpost.destination">
+				<source>Destination</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_adpost.categories">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_adpost.phone_number">
+				<source>Phone Number</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_adpost.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_adpost.image">
+				<source>Image</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

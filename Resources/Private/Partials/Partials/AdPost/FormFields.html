@@ -1,0 +1,34 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:h="OldGold\OldGold\ViewHelpers" data-namespace-typo3-fluid="true">
+<label for="title">
+	<f:translate key="tx_oldgold_domain_model_adpost.title" /> <span class="required">*</span>
+</label><br />
+	<f:form.textfield property="title" /><br />
+<label for="description">
+	<f:translate key="tx_oldgold_domain_model_adpost.description" /> <span class="required">*</span>
+</label><br />
+	<f:form.textarea property="description" /><br />
+<label for="destination">
+	<f:translate key="tx_oldgold_domain_model_adpost.destination" /> <span class="required">*</span>
+</label><br />
+    <h:form.select property="destination" title="destination"  options="{h:form.GetCountries()}" /><br/>
+<label for="categories">
+	<f:translate key="tx_oldgold_domain_model_adpost.categories" /><span class="required">*</span>
+</label><br />
+<h:form.select property="categories" title="categories"  options="{h:form.GetCategories()}" /><br/>
+<label for="phoneNumber">
+	<f:translate key="tx_oldgold_domain_model_adpost.phone_number" /> <span class="required">*</span>
+</label><br />
+	<f:form.textfield property="phoneNumber" /><br />
+<label for="email">
+	<f:translate key="tx_oldgold_domain_model_adpost.email" /><span class="required">*</span>
+</label><br />
+	<f:form.textfield property="email" /><br />
+<label for="image">
+	<f:translate key="tx_oldgold_domain_model_adpost.image" /><span class="required">*</span>
+</label><br />
+<h:form.upload property="image" >
+	<f:if condition="{resource}">
+		<f:image image="{resource}" alt="" width="50"/>
+	</f:if>
+</h:form.upload><br />
+</html>

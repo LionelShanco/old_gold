@@ -1,0 +1,76 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This Template is responsible for displaying a single view for a domain object
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Show.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+   <h1>Details of the Ad</h1>
+
+
+    <!--div class="container">
+        <div class="col-sm-4">
+            <label arguments="{adPost:adPost}">
+                 <i class="fa fa-suitcase fontStyling" aria-hidden="true"></i>
+                  Title :<span>{adPost.title}</span>
+            </label>
+
+        </div>
+
+        <div class="col-sm-5">
+            <label>
+                <i class="fa fa-suitcase fontStyling" aria-hidden="true"></i>
+                Description :
+            </label>
+        </div>
+
+        <div class="col-sm-6">
+            <label>
+                <i class="fa fa-suitcase fontStyling" aria-hidden="true"></i>
+                Categories :
+            </label>
+        </div>
+
+        <div class="col-sm-7">
+            <label>
+                <i class="fa fa-suitcase fontStyling" aria-hidden="true"></i>
+                Phone Number :
+            </label>
+        </div>
+
+        <div class="col-sm-8">
+            <label>
+                <i class="fa fa-suitcase fontStyling" aria-hidden="true"></i>
+                Email :
+            </label>
+        </div>
+
+        <div-- class="col-sm-9">
+            <label>
+                <i class="fa fa-suitcase fontStyling" aria-hidden="true"></i>
+                Image :
+            </label>
+        </div-->
+
+
+
+
+
+    </div>
+    <f:flashMessages />
+
+    <f:render partial="AdPost/Properties" arguments="{adPost:adPost}"/>
+
+    <!--f:link.action action="new">New AdPost</f:link.action-->
+    <f:link.action action="adShow">Back to list</f:link.action>
+
+</f:section>
+</html>
